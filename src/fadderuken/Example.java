@@ -34,7 +34,6 @@ public class Example {
 		
 		char bokstav = 'A';
 		
-		
 		//Egentlig ikke en primitiv type
 		String streng = "setning";
 		
@@ -59,6 +58,7 @@ public class Example {
 		System.out.println(streng == "setning"); // => false
 		System.out.println(streng.equals("setning")); // => true
 		
-		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MAX_VALUE); // => veldig stort tall
+		
 	}
 }

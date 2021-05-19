@@ -23,6 +23,8 @@ public class BeerBong {
 		amount = 0;
 	}
 	
+	
+	
 	public static void main(String[] args) {
 		BeerBong bong = new BeerBong(1);
 		bong.fill(0.5);
