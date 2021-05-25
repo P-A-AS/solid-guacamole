@@ -31,4 +31,9 @@ public class Barkeep extends Person {
 	public String toString() {
 		return super.toString() + ", employeeID: " + employeeId;
 	}
+	
+	public static void main(String[] args) {
+		System.out.println(Barkeep.nextEmployeeId);
+		Barkeep barkeep = new Barkeep(21, "Anders", "Robstad");
+	}
 }
